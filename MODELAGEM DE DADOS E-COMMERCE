@@ -1,0 +1,25 @@
+# Projeto Conceitual de Banco de Dados : E-COMMERCE
+
+O objetivo deste projeto foi construir um projeto conceitual de banco de dados de um E-Commerce.
+
+### Escopo do projeto:
+
+produtos
+* Os produtos são vendidos através de uma única plataforma online. No entanto, estes podem ter diferentes vendedores (terceiros).
+* Cada produto tem um fornecedor.
+* Um ou mais produtos compõem um pedido.
+
+Cliente
+* Os clientes podem se cadastrar no site com seu CPF ou CNPJ.
+* O endereço do cliente determinará o custo de envio.
+* Um cliente pode comprar mais de um pedido. Este tem um prazo para reembolso.
+
+Solicitar
+* Os pedidos são criados pelos clientes e possuem informações do cliente sobre compra, endereço e status de entrega.
+* Um ou mais produtos compõem o pedido.
+* O pedido pode ser cancelado.
+
+Observações:
+* Uma conta pode ser PJ ou PF, mas não pode ter as duas informações.
+* Você pode ter cadastrado mais de uma forma de pagamento.
+* A entrega tem status e código de rastreamento.
